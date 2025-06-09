@@ -1,0 +1,62 @@
+:root {
+  --color-brand-dark: #011c44;
+  --color-brand-light: #4a4a4a;
+  --color-primary-blue: #2b7fff;
+  --color-secondary-light: #ffffff;
+}
+
+/* base */
+body {
+  color: var(--color-brand-dark);
+}
+ul {
+  list-style-type: none;
+}
+/* button style */
+.button-primary {
+  color: var(--color-secondary-light);
+  background-color: var(--color-primary-blue);
+  border: 1px solid #000;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.button-secondary {
+  color: var(--color-secondary-light);
+  background-color: var(--color-primary-blue);
+  border-radius: 32px;
+  cursor: pointer;
+}
+.button-primary:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+.button-secondary:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+  /* link */
+}
+.link {
+  color: var(--color-brand-dark);
+}
+.link:hover {
+  color: var(--color-primary-blue);
+  /* hero-section */
+}
+.hero-title {
+  color: var(--color-primary-blue);
+}
+.stick {
+  color: var(--color-brand-dark);
+}
+/* contact-list */
+.contacts-list {
+  color: var(--color-brand-light);
+  background: var(--color-secondary-light);
+}
+/* section-title */
+.section-title {
+  /* color: var(--color-brand-dark); */
+}
+.blue {
+  color: var(--color-primary-blue);
+}

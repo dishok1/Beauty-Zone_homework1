@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Beauty Zone</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -12,10 +13,15 @@
           <img src="./images/logo.svg" alt=" Логотип Beauty Zone" />
         </a>
         <ul>
-          <li><a href="#about_us">Про нас</a></li>
-          <li><a href="#why_do_we-section">Чому ми</a></li>
-          <li><a href="#our_procedures-secton">Наші процедури</a></li>
-          <li><a href="#contact-section">Контакти</a></li>
+          <li>
+            <a class="link" href="#about_us">Про нас</a>
+          </li>
+
+          <li><a class="link" href="#why_do_we-section">Чому ми</a></li>
+          <li>
+            <a class="link" href="#our_procedures-secton">Наші процедури</a>
+          </li>
+          <li><a class="link" href="#contact-section">Контакти</a></li>
           <li>
             <address>
               <a href="tel:+380960000007">
@@ -37,17 +43,24 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1 lang="en">Beauty Zone</h1>
-        <p>
-          <button type="button">Замовити дзвінок</button>
-        </p>
-
-        <p>Запишись та отримай</p>
-        <p>безкоштовну консультацію нашого косметолога</p>
+      <section lang="uk">
+        <span class="stick">Косметологічна клініка</span>
+        <h1 class="hero-title" lang="en">
+          <p>Beauty</p>
+          <p>Zone</p>
+        </h1>
+        <button type="button-secondary" class="button-secondary">
+          Замовити дзвінок
+        </button>
+        <ul class="contacts-list">
+          <li>Запишись та отримай</li>
+          <li>безкоштовну консультацію нашого косметолога</li>
+        </ul>
       </section>
       <section id="about_us">
-        <h2>Перевтілюйтесь в <span lang="en">Beauty Zone!</span></h2>
+        <h2 class="section-title">
+          Перевтілюйтесь в <span lang="en" class="blue">Beauty Zone!</span>
+        </h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла
@@ -62,7 +75,9 @@
         <img src="./images/face_after.jpg" alt="обличчя після процедури" />
       </section>
       <section id="why_do_we-section">
-        <h2>Чому люди обирають нас</h2>
+        <h2 class="section-title">
+          Чому люди <span class="blue">обирають нас</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -100,7 +115,7 @@
         </ul>
       </section>
       <section id="our_procedures-secton">
-        <h2>Наші процедури</h2>
+        <h2 class="section-title">Наші <span class="blue">процедури</span></h2>
         <ul>
           <li>
             <article>
@@ -120,20 +135,35 @@
         </ul>
       </section>
       <section id="contact-section">
-        <h2>Як нас знайти</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.939879501632!2d30.515553976059945!3d50.442220487957016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1749228424995!5m2!1sru!2sua"
-          width="605"
-          height="481"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <h2 class="section-title">Як нас<span class="blue">знайти</span></h2>
+        <ul>
+          <li>
+            <article>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.939879501632!2d30.515553976059945!3d50.442220487957016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1749228424995!5m2!1sru!2sua"
+                width="605"
+                height="481"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </article>
+          </li>
+          <li>
+            <article>
+              <button type="button-primary" class="button-primary">
+                Записатись безкоштовно
+              </button>
+              <p>Натискаючи на кнопку я погоджуюсь</p>
+              <p>з політикою конфіденційності</p>
+            </article>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
       <nav>
-        <a href="#">
+        <a href="/">
           <img src="./images/logo.svg" alt=" Логотип Beauty Zone" />
         </a>
         <ul>
