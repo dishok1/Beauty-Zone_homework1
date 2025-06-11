@@ -45,28 +45,26 @@
     <main>
       <section lang="uk">
         <span class="stick">Косметологічна клініка</span>
-        <h1 class="hero-title" lang="en">
-          <p>Beauty</p>
-          <p>Zone</p>
-        </h1>
-        <button type="button-secondary" class="button-secondary">
-          Замовити дзвінок
-        </button>
+        <h1 class="hero-title" lang="en">Beauty Zone</h1>
+        <button type="button" class="buton-secondary">Замовити дзвінок</button>
         <ul class="contacts-list">
-          <li>Запишись та отримай</li>
-          <li>безкоштовну консультацію нашого косметолога</li>
+          <li class="contacts-list">Запишись та отримай</li>
+          <li class="contacts-list">
+            безкоштовну консультацію нашого косметолога
+          </li>
         </ul>
       </section>
       <section id="about_us">
         <h2 class="section-title">
-          Перевтілюйтесь в <span lang="en" class="blue">Beauty Zone!</span>
+          <p>Перевтілюйтесь в</p>
+          <p lang="en"><span class="blue">Beauty Zone!</span></p>
         </h2>
-        <p>
+        <p class="our_cosmetic">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла
         </p>
-        <p>
-          B <span lang="en">beauty zone</span> ми гарантуємо найвищі стандарти
+        <p class="our_cosmetic">
+          B <span lang="en">Beauty Zone</span> ми гарантуємо найвищі стандарти
           якості та приємний сервіс. Наші косметологічні процедури та препарати
           допоможуть вам підтримувати свою красу та молодість. З нами краса
           назавжди
@@ -119,23 +117,23 @@
         <ul>
           <li>
             <article>
-              <h3>Маски для обличчя</h3>
+              <h3 class="our_procedures">Маски для обличчя</h3>
             </article>
           </li>
           <li>
             <article>
-              <h3>Ін'єкції для обличчя</h3>
+              <h3 class="our_procedures">Ін'єкції для обличчя</h3>
             </article>
           </li>
           <li>
             <article>
-              <h3>Очищення обличчя</h3>
+              <h3 class="our_procedures">Очищення обличчя</h3>
             </article>
           </li>
         </ul>
       </section>
       <section id="contact-section">
-        <h2 class="section-title">Як нас<span class="blue">знайти</span></h2>
+        <h2 class="section-title">Як нас<span class="blue"> знайти</span></h2>
         <ul>
           <li>
             <article>
@@ -151,7 +149,7 @@
           </li>
           <li>
             <article>
-              <button type="button-primary" class="button-primary">
+              <button type="button" class="buton-primary">
                 Записатись безкоштовно
               </button>
               <p>Натискаючи на кнопку я погоджуюсь</p>
@@ -167,33 +165,44 @@
           <img src="./images/logo.svg" alt=" Логотип Beauty Zone" />
         </a>
         <ul>
-          <li><a href="#about_us">Про нас</a></li>
-          <li><a href="#why_do_we-section">Чому ми</a></li>
-          <li><a href="#our_procedures-secton">Наші процедури</a></li>
-          <li><a href="#contact-section">Контакти</a></li>
+          <li><a class="footer_link" href="#about_us">Про нас</a></li>
+          <li><a class="footer_link" href="#why_do_we-section">Чому ми</a></li>
+          <li>
+            <a class="footer_link" href="#our_procedures-secton"
+              >Наші процедури</a
+            >
+          </li>
+          <li><a class="footer_link" href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
       <ul>
         <li>
           <address>
-            <a href="tel:+380960000007">+ 38 (096) 000 00 07</a>
+            <a class="footer_link" href="tel:+380960000007"
+              >+ 38 (096) 000 00 07</a
+            >
           </address>
         </li>
         <li>
           <address>
-            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+            <a class="footer_link" href="mailto:beautyzone@gmail.com"
+              >beautyzone@gmail.com</a
+            >
           </address>
         </li>
         <li>
           <address>
-            <a href="https://maps.app.goo.gl/ftMbvfnW7E6bR2NM7" target="_blank"
+            <a
+              class="footer_link"
+              href="https://maps.app.goo.gl/ftMbvfnW7E6bR2NM7"
+              target="_blank"
               >Україна, м. Київ, бул. Тараса Шевченка 5</a
             >
           </address>
         </li>
         <li>
           <address>
-            <a href="tel:+380960000007">
+            <a class="footer_link" href="tel:+380960000007">
               <img src="./images/telephone.png" alt="телефон в кінці" />
             </a>
           </address>
@@ -209,8 +218,10 @@
           </address>
         </li>
       </ul>
-      <a href="#" target="_blank">Політика конфіденційності</a>
-      <p>&copy; 2022 Дані захищені</p>
+      <a class="footer_link" href="#" target="_blank"
+        >Політика конфіденційності</a
+      >
+      <p class="footer_copirght">&copy; 2022 Дані захищені</p>
     </footer>
   </body>
 </html>
