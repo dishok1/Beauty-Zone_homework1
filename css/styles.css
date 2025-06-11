@@ -1,3 +1,35 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v48-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v48-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v20-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v20-latin-700.woff2") format("woff2");
+}
+
 :root {
   --color-brand-dark: #011c44;
   --color-brand-light: #4a4a4a;
@@ -8,42 +40,61 @@
 /* base */
 body {
   color: var(--color-brand-dark);
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+address {
+  font-style: normal;
 }
 ul {
   list-style-type: none;
 }
 /* button style */
-.button-primary {
+.buton-primary {
   color: var(--color-secondary-light);
   background-color: var(--color-primary-blue);
   border: 1px solid #000;
   border-radius: 32px;
   cursor: pointer;
+  font-weight: 600;
 }
-.button-secondary {
+.buton-secondary {
   color: var(--color-secondary-light);
   background-color: var(--color-primary-blue);
   border-radius: 32px;
   cursor: pointer;
 }
-.button-primary:hover {
+.buton-primary:hover {
   color: var(--color-brand-dark);
   background-color: transparent;
+  font-weight: 600;
 }
-.button-secondary:hover {
+.buton-secondary:hover {
   color: var(--color-brand-dark);
   background-color: transparent;
   /* link */
 }
 .link {
   color: var(--color-brand-dark);
+  text-decoration: none;
 }
 .link:hover {
   color: var(--color-primary-blue);
+  font-weight: 700;
+
   /* hero-section */
 }
 .hero-title {
   color: var(--color-primary-blue);
+  line-height: 1.7;
+  font-family: "Play", sans-serif;
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
 }
 .stick {
   color: var(--color-brand-dark);
@@ -53,10 +104,47 @@ ul {
   color: var(--color-brand-light);
   background: var(--color-secondary-light);
 }
+.contacts-list {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+}
 /* section-title */
 .section-title {
-  /* color: var(--color-brand-dark); */
 }
 .blue {
   color: var(--color-primary-blue);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: capitalize;
+}
+/* our procedures */
+.our_procedures {
+  font-weight: 400;
+  font-size: 22px;
+}
+/* our_cosmetic */
+.our_cosmetic {
+  font-size: 22px;
+}
+.our_cosmetic span {
+  color: var(--color-brand-dark);
+
+  font-weight: bold;
+}
+/* footer */
+.footer_link {
+  color: var(--color-brand-dark);
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer_link:hover {
+  color: var(--color-primary-blue);
+  text-decoration: none;
+}
+.footer_copirght {
+  font-weight: 400;
+  font-size: 13px;
 }
