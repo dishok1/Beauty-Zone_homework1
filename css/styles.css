@@ -5,7 +5,6 @@
   font-weight: 400;
   src: url("../fonts/roboto-v48-latin-regular.woff2") format("woff2");
 }
-
 @font-face {
   font-display: swap;
   font-family: "Roboto";
@@ -13,7 +12,6 @@
   font-weight: 600;
   src: url("../fonts/roboto-v48-latin-600.woff2") format("woff2");
 }
-
 @font-face {
   font-display: swap;
   font-family: "Play";
@@ -21,7 +19,6 @@
   font-weight: 400;
   src: url("../fonts/play-v20-latin-regular.woff2") format("woff2");
 }
-
 @font-face {
   font-display: swap;
   font-family: "Play";
@@ -40,21 +37,17 @@
 /* base */
 body {
   color: var(--color-brand-dark);
-  line-height: 1.7;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
 }
-address {
-  font-style: normal;
-}
 ul {
   list-style-type: none;
 }
 /* button style */
-.buton-primary {
+.button-primary {
   color: var(--color-secondary-light);
   background-color: var(--color-primary-blue);
   border: 1px solid #000;
@@ -62,39 +55,47 @@ ul {
   cursor: pointer;
   font-weight: 600;
 }
-.buton-secondary {
+.button-secondary {
   color: var(--color-secondary-light);
   background-color: var(--color-primary-blue);
   border-radius: 32px;
   cursor: pointer;
 }
-.buton-primary:hover {
+.button-primary:hover {
   color: var(--color-brand-dark);
   background-color: transparent;
   font-weight: 600;
 }
-.buton-secondary:hover {
+.button-secondary:hover {
   color: var(--color-brand-dark);
   background-color: transparent;
   /* link */
 }
 .link {
   color: var(--color-brand-dark);
-  text-decoration: none;
 }
 .link:hover {
   color: var(--color-primary-blue);
   font-weight: 700;
-
   /* hero-section */
 }
 .hero-title {
   color: var(--color-primary-blue);
-  line-height: 1.7;
   font-family: "Play", sans-serif;
   text-transform: capitalize;
   font-size: 140px;
   font-weight: 700;
+  line-height: 81%;
+  text-transform: capitalize;
+}
+.hero_title_2 {
+  color: var(--color-primary-blue);
+  font-family: "Play", sans-serif;
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 81%;
+  text-transform: capitalize;
 }
 .stick {
   color: var(--color-brand-dark);
@@ -111,19 +112,21 @@ ul {
 }
 /* section-title */
 .section-title {
-}
-.blue {
-  color: var(--color-primary-blue);
+  /* color: var(--color-brand-dark); */
 }
 .section-title {
   font-weight: 700;
   font-size: 64px;
   text-transform: capitalize;
 }
-/* our procedures */
-.our_procedures {
-  font-weight: 400;
-  font-size: 22px;
+
+.blue {
+  color: var(--color-primary-blue);
+}
+.blue {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: capitalize;
 }
 /* our_cosmetic */
 .our_cosmetic {
