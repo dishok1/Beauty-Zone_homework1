@@ -37,7 +37,7 @@
 /* base */
 body {
   color: var(--color-brand-dark);
-  font-family: "Roboto", sans-serif;
+  font-family: "Play", sans-serif;
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 400;
@@ -48,6 +48,7 @@ ul {
 }
 /* button style */
 .button-primary {
+  font-family: "Roboto", sans-serif;
   color: var(--color-secondary-light);
   background-color: var(--color-primary-blue);
   border: 1px solid #000;
@@ -56,6 +57,7 @@ ul {
   font-weight: 600;
 }
 .button-secondary {
+  font-family: "Roboto", sans-serif;
   color: var(--color-secondary-light);
   background-color: var(--color-primary-blue);
   border-radius: 32px;
@@ -112,7 +114,7 @@ ul {
 }
 /* section-title */
 .section-title {
-  /* color: var(--color-brand-dark); */
+  color: var(--color-brand-dark);
 }
 .section-title {
   font-weight: 700;
